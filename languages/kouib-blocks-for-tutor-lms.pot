@@ -1,0 +1,818 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kouib Blocks 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/plugins/kouib-blocks-for-tutor-lms\n"
+"POT-Creation-Date: 2026-08-30 08:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: kouib-blocks-for-tutor-lms\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: includes/settings.php:437
+msgid "\"course-category\" taxonomy available"
+msgstr ""
+
+#: includes/settings.php:430
+msgid "\"courses\" post type registered"
+msgstr ""
+
+#: includes/render.php:687
+msgid "%d lesson"
+msgstr ""
+
+#: includes/categories-render.php:330
+msgid "%s course"
+msgid_plural "%s courses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/render.php:690
+#: includes/search-render.php:358
+msgid "%s student"
+msgstr ""
+
+#: includes/settings.php:427
+msgid "Activated only when Tutor LMS is present (provides courses and categories)."
+msgstr ""
+
+#: includes/settings.php:448
+msgid "Add at least one course for the blocks to display."
+msgstr ""
+
+#: src/courses-categories/edit.jsx:139
+msgid "Add icon"
+msgstr ""
+
+#: includes/render.php:386
+msgid "All"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:201
+#: src/courses-categories/edit.jsx:162
+#: src/courses-filter/edit.jsx:109
+#: src/courses-search/edit.jsx:102
+#: src/courses-stats/edit.jsx:93
+msgid "Appearance"
+msgstr ""
+
+#: includes/settings.php:313
+msgid "Applies to course images in filter, carousel and search result cards."
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:106
+msgid "Autoplay"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:112
+msgid "Autoplay speed (ms)"
+msgstr ""
+
+#: includes/settings.php:275
+msgid "Blocks"
+msgstr ""
+
+#: includes/settings.php:583
+msgid "Blocks cache flushed."
+msgstr ""
+
+#: src/courses-filter/edit.jsx:118
+msgid "Buttons and hover color"
+msgstr ""
+
+#: includes/settings.php:236
+msgid "Cache duration (seconds)"
+msgstr ""
+
+#: includes/settings.php:506
+msgid "Cache flushes automatically on any course change or when this page is saved; this button flushes it instantly."
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:203
+#: src/courses-filter/edit.jsx:111
+msgid "Card shadow"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:38
+msgid "Categories to show"
+msgstr ""
+
+#: includes/settings.php:283
+msgid "Category Boxes"
+msgstr ""
+
+#: src/courses-categories/edit.jsx:102
+msgid "Category icons"
+msgstr ""
+
+#: includes/settings.php:441
+msgid "Category not found — check Tutor LMS status or create it under \"Courses → Categories\"."
+msgstr ""
+
+#: src/courses-search/edit.jsx:51
+msgid "Center"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:70
+#: src/courses-categories/edit.jsx:64
+#: src/courses-stats/edit.jsx:54
+msgid "Columns (desktop)"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:84
+#: src/courses-categories/edit.jsx:78
+#: src/courses-stats/edit.jsx:68
+msgid "Columns (mobile)"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:77
+#: src/courses-categories/edit.jsx:71
+#: src/courses-stats/edit.jsx:61
+msgid "Columns (tablet)"
+msgstr ""
+
+#: includes/settings.php:208
+msgid "Course Blocks Settings"
+msgstr ""
+
+#: src/courses-stats/edit.jsx:41
+msgid "Course count"
+msgstr ""
+
+#: includes/carousel-render.php:174
+msgid "Course navigation"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:91
+#: src/courses-filter/edit.jsx:42
+msgid "Course order"
+msgstr ""
+
+#: includes/stats-render.php:154
+msgid "Courses"
+msgstr ""
+
+#: includes/settings.php:282
+msgid "Courses Carousel"
+msgstr ""
+
+#: includes/settings.php:281
+msgid "Courses Filter"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:35
+msgid "Courses Settings"
+msgstr ""
+
+#: src/courses-filter/edit.jsx:28
+msgid "Courses per category"
+msgstr ""
+
+#: includes/settings.php:335
+msgid "Custom size"
+msgstr ""
+
+#: includes/settings.php:389
+msgid "Default color for enroll buttons, links, ribbons and stat numbers across all blocks."
+msgstr ""
+
+#: includes/settings.php:244
+msgid "Default primary color"
+msgstr ""
+
+#: includes/settings.php:494
+msgid "Defaults for all plugin blocks (category: Kouib Blocks)."
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:172
+#: src/courses-filter/edit.jsx:82
+msgid "Duration"
+msgstr ""
+
+#: includes/settings.php:379
+msgid "Duration between 30 seconds and 7 days. Default is 1800 (30 minutes)."
+msgstr ""
+
+#: includes/stats-render.php:216
+msgid "Enable at least one statistic to display"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:187
+#: src/courses-filter/edit.jsx:97
+msgid "Enroll button"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:193
+#: src/courses-filter/edit.jsx:102
+msgid "Enroll button text"
+msgstr ""
+
+#: includes/carousel-render.php:91
+#: includes/render.php:313
+#: includes/render.php:503
+#: includes/render.php:617
+#: includes/render.php:712
+msgid "Enroll in course"
+msgstr ""
+
+#: src/courses-stats/edit.jsx:87
+msgid "Filled"
+msgstr ""
+
+#: includes/settings.php:508
+msgid "Flush cache now"
+msgstr ""
+
+#: src/courses-search/edit.jsx:47
+msgid "Form alignment"
+msgstr ""
+
+#: includes/render.php:555
+#: includes/render.php:573
+msgid "Free"
+msgstr ""
+
+#: includes/settings.php:229
+#: src/courses-filter/edit.jsx:26
+msgid "General Settings"
+msgstr ""
+
+#: includes/settings.php:305
+msgid "General block behavior; values here apply to any block without its own override."
+msgstr ""
+
+#: src/courses-stats/edit.jsx:52
+msgid "Grid"
+msgstr ""
+
+#: src/courses-categories/edit.jsx:62
+msgid "Grid Settings"
+msgstr ""
+
+#: includes/settings.php:353
+msgid "Height (px; 0 = auto by aspect ratio)"
+msgstr ""
+
+#: includes/settings.php:309
+msgid "Hidden blocks: they no longer appear in the block inserter (cannot be added), are not rendered on the frontend, and disappear from your pages without deleting content; re-showing the block restores everything."
+msgstr ""
+
+#: src/courses-categories/edit.jsx:90
+msgid "Hide empty categories"
+msgstr ""
+
+#: src/courses-stats/edit.jsx:83
+msgid "Icon style"
+msgstr ""
+
+#: src/courses-stats/edit.jsx:76
+msgid "Icons & Labels"
+msgstr ""
+
+#: includes/settings.php:252
+msgid "Images"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:129
+msgid "Infinite loop"
+msgstr ""
+
+#: src/courses-stats/edit.jsx:36
+msgid "Instructor count"
+msgstr ""
+
+#: includes/stats-render.php:153
+msgid "Instructors"
+msgstr ""
+
+#: includes/rest.php:136
+#: includes/rest.php:140
+msgid "Invalid category"
+msgstr ""
+
+#: includes/settings.php:209
+#: kouib-blocks-for-tutor-lms.php:140
+msgid "Kouib Blocks"
+msgstr ""
+
+#: includes/settings.php:493
+msgid "Kouib Blocks Settings"
+msgstr ""
+
+#: includes/settings.php:333
+msgid "Large (large)"
+msgstr ""
+
+#: includes/settings.php:259
+msgid "Lazy loading"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:60
+msgid "Leave empty to show courses from all categories"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:196
+#: src/courses-filter/edit.jsx:105
+#: src/courses-search/edit.jsx:36
+msgid "Leave empty to use the default text"
+msgstr ""
+
+#: src/courses-search/edit.jsx:50
+msgid "Left"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:167
+#: src/courses-filter/edit.jsx:77
+#: src/courses-stats/edit.jsx:46
+msgid "Lesson count"
+msgstr ""
+
+#: includes/stats-render.php:155
+msgid "Lessons"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:157
+#: src/courses-filter/edit.jsx:67
+msgid "Level"
+msgstr ""
+
+#: includes/settings.php:322
+msgid "Load images only when near the viewport (faster page load)"
+msgstr ""
+
+#: includes/render.php:519
+msgid "Load more"
+msgstr ""
+
+#: includes/settings.php:505
+msgid "Manual cache flush"
+msgstr ""
+
+#: src/courses-search/edit.jsx:70
+msgid "Match exact phrase"
+msgstr ""
+
+#: includes/settings.php:331
+msgid "Medium (medium)"
+msgstr ""
+
+#: includes/settings.php:332
+msgid "Medium large (medium_large)"
+msgstr ""
+
+#: kouib-blocks-for-tutor-lms.php:241
+msgid "More information about %s"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:98
+#: src/courses-filter/edit.jsx:49
+msgid "Most students"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:104
+msgid "Motion Settings"
+msgstr ""
+
+#: includes/render.php:671
+msgid "New"
+msgstr ""
+
+#: includes/settings.php:357
+msgid "New images are generated at the custom size automatically; existing images fall back to the closest large original size."
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:94
+#: src/courses-filter/edit.jsx:45
+msgid "Newest"
+msgstr ""
+
+#: includes/carousel-render.php:168
+msgid "Next"
+msgstr ""
+
+#: includes/categories-render.php:264
+#: includes/render.php:322
+msgid "No course categories are available yet."
+msgstr ""
+
+#: includes/carousel-render.php:100
+msgid "No courses are available yet."
+msgstr ""
+
+#: includes/render.php:716
+msgid "No courses in this category"
+msgstr ""
+
+#: includes/search-render.php:477
+msgid "No matching results"
+msgstr ""
+
+#: src/courses-filter/edit.jsx:35
+msgid "Number of columns"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:63
+msgid "Number of courses shown"
+msgstr ""
+
+#: src/courses-search/edit.jsx:63
+msgid "Number of results shown"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:95
+#: src/courses-filter/edit.jsx:46
+msgid "Oldest"
+msgstr ""
+
+#: src/courses-categories/edit.jsx:96
+msgid "Open category link in a new tab"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:149
+#: src/courses-filter/edit.jsx:59
+#: src/courses-search/edit.jsx:96
+msgid "Open course in a new tab"
+msgstr ""
+
+#: includes/settings.php:334
+msgid "Original (full — no resize)"
+msgstr ""
+
+#: src/courses-stats/edit.jsx:86
+msgid "Outline (lines)"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:144
+msgid "Pause on hover"
+msgstr ""
+
+#: src/courses-search/edit.jsx:33
+msgid "Placeholder text"
+msgstr ""
+
+#: includes/settings.php:285
+msgid "Platform Stats"
+msgstr ""
+
+#: includes/settings.php:460
+msgid "Plugin Health Check"
+msgstr ""
+
+#: includes/settings.php:451
+msgid "Plugin blocks registered: %d/5"
+msgstr ""
+
+#: includes/carousel-render.php:165
+msgid "Prev"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:177
+#: src/courses-filter/edit.jsx:87
+msgid "Price"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:210
+#: src/courses-categories/edit.jsx:165
+#: src/courses-stats/edit.jsx:96
+msgid "Primary color"
+msgstr ""
+
+#: src/courses-search/edit.jsx:105
+msgid "Primary color (focus border)"
+msgstr ""
+
+#: includes/settings.php:444
+msgid "Published courses: %d"
+msgstr ""
+
+#: includes/settings.php:284
+msgid "Quick Search"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:97
+#: src/courses-filter/edit.jsx:48
+msgid "Random"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:162
+#: src/courses-filter/edit.jsx:72
+msgid "Rating"
+msgstr ""
+
+#: includes/settings.php:434
+msgid "Re-enable Tutor LMS to register the content type."
+msgstr ""
+
+#: src/courses-categories/edit.jsx:151
+msgid "Remove"
+msgstr ""
+
+#: src/courses-categories/edit.jsx:138
+msgid "Replace"
+msgstr ""
+
+#: src/courses-search/edit.jsx:52
+msgid "Right"
+msgstr ""
+
+#: src/courses-search/edit.jsx:31
+msgid "Search Settings"
+msgstr ""
+
+#: includes/search-render.php:288
+msgid "Search failed right now, try again later."
+msgstr ""
+
+#: src/courses-search/edit.jsx:115
+msgid "Search field background"
+msgstr ""
+
+#: src/courses-search/edit.jsx:125
+msgid "Search field border color"
+msgstr ""
+
+#: src/courses-search/edit.jsx:135
+msgid "Search field text color"
+msgstr ""
+
+#: src/courses-search/edit.jsx:39
+msgid "Search field width (px)"
+msgstr ""
+
+#: includes/search-render.php:212
+msgid "Search for a course..."
+msgstr ""
+
+#: src/courses-search/edit.jsx:145
+msgid "Search icon color"
+msgstr ""
+
+#: includes/rest.php:185
+msgid "Search text is empty"
+msgstr ""
+
+#: kouib-blocks-for-tutor-lms.php:233
+msgid "Settings"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:155
+#: src/courses-filter/edit.jsx:65
+msgid "Show / Hide Elements"
+msgstr ""
+
+#: src/courses-categories/edit.jsx:85
+msgid "Show course count"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:139
+msgid "Show dots"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:134
+msgid "Show navigation arrows"
+msgstr ""
+
+#: src/courses-search/edit.jsx:81
+msgid "Show price"
+msgstr ""
+
+#: src/courses-search/edit.jsx:86
+msgid "Show rating"
+msgstr ""
+
+#: src/courses-search/edit.jsx:57
+msgid "Show results as an overlay"
+msgstr ""
+
+#: src/courses-stats/edit.jsx:78
+msgid "Show stat labels"
+msgstr ""
+
+#: src/courses-search/edit.jsx:91
+msgid "Show student count"
+msgstr ""
+
+#: src/courses-filter/edit.jsx:54
+msgid "Show the \"All\" button"
+msgstr ""
+
+#: src/courses-search/edit.jsx:76
+msgid "Show thumbnail"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:121
+msgid "Slide speed (ms)"
+msgstr ""
+
+#: includes/settings.php:455
+msgid "Some blocks were not registered — deactivate and reactivate the plugin."
+msgstr ""
+
+#: src/courses-stats/edit.jsx:29
+msgid "Statistics"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:182
+#: src/courses-filter/edit.jsx:92
+#: src/courses-stats/edit.jsx:31
+msgid "Student count"
+msgstr ""
+
+#: includes/stats-render.php:152
+msgid "Students"
+msgstr ""
+
+#: includes/settings.php:129
+msgid "This block is hidden from Settings → Kouib Blocks."
+msgstr ""
+
+#: includes/settings.php:330
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/settings.php:267
+msgid "Thumbnail size"
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:96
+#: src/courses-filter/edit.jsx:47
+msgid "Title (A-Z)"
+msgstr ""
+
+#: includes/rest.php:122
+#: includes/rest.php:178
+msgid "Too many requests, try again later."
+msgstr ""
+
+#: src/courses-carousel/edit.jsx:204
+#: src/courses-filter/edit.jsx:112
+msgid "Turn off for flat cards with no shadow"
+msgstr ""
+
+#: includes/settings.php:423
+msgid "Tutor LMS plugin active"
+msgstr ""
+
+#: includes/search-render.php:405
+msgid "Type to search courses..."
+msgstr ""
+
+#: src/courses-categories/edit.jsx:107
+msgid "Upload a PNG image for each category; it appears above the category name inside the box and can be replaced or removed anytime"
+msgstr ""
+
+#: kouib-blocks-for-tutor-lms.php:243
+msgid "View details"
+msgstr ""
+
+#: includes/settings.php:400
+msgid "Visible"
+msgstr ""
+
+#: src/courses-categories/edit.jsx:92
+msgid "When off, categories show even with no courses"
+msgstr ""
+
+#: src/courses-search/edit.jsx:59
+msgid "When off, results appear inline and push content down instead of overlaying"
+msgstr ""
+
+#: src/courses-search/edit.jsx:72
+msgid "When off: any single word is enough to match (ranked by relevance). When on: the phrase is matched exactly"
+msgstr ""
+
+#: includes/settings.php:350
+msgid "Width (px)"
+msgstr ""
+
+#. Block title.
+#: src/courses-filter/block.json:title
+msgctxt "block title"
+msgid "Tutor Courses Filter"
+msgstr ""
+
+#. Block title.
+#: src/courses-carousel/block.json:title
+msgctxt "block title"
+msgid "Tutor Courses Carousel"
+msgstr ""
+
+#. Block title.
+#: src/courses-categories/block.json:title
+msgctxt "block title"
+msgid "Tutor Courses Categories"
+msgstr ""
+
+#. Block title.
+#: src/courses-search/block.json:title
+msgctxt "block title"
+msgid "Tutor Courses Search"
+msgstr ""
+
+#. Block title.
+#: src/courses-stats/block.json:title
+msgctxt "block title"
+msgid "Platform Stats"
+msgstr ""
+
+#. Block description.
+#: src/courses-filter/block.json:description
+msgctxt "block description"
+msgid "Filter Tutor LMS courses by category with ordering by student count"
+msgstr ""
+
+#. Block description.
+#: src/courses-carousel/block.json:description
+msgctxt "block description"
+msgid "Interactive carousel for displaying Tutor LMS courses with full motion and navigation control"
+msgstr ""
+
+#. Block description.
+#: src/courses-categories/block.json:description
+msgctxt "block description"
+msgid "Course category boxes for Tutor LMS with a custom icon per category (upload PNG images and replace or remove them)"
+msgstr ""
+
+#. Block description.
+#: src/courses-search/block.json:description
+msgctxt "block description"
+msgid "Instant search across Tutor LMS courses with live AJAX results — no page reload"
+msgstr ""
+
+#. Block description.
+#: src/courses-stats/block.json:description
+msgctxt "block description"
+msgid "Quick platform stats: student, instructor, course and lesson counts with lightweight caching"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-filter/block.json:keywords
+msgctxt "block keyword"
+msgid "tutor"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-filter/block.json:keywords
+msgctxt "block keyword"
+msgid "lms"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-filter/block.json:keywords
+msgctxt "block keyword"
+msgid "courses"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-filter/block.json:keywords
+msgctxt "block keyword"
+msgid "filter"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-carousel/block.json:keywords
+msgctxt "block keyword"
+msgid "carousel"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-carousel/block.json:keywords
+msgctxt "block keyword"
+msgid "slider"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-categories/block.json:keywords
+msgctxt "block keyword"
+msgid "categories"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-categories/block.json:keywords
+msgctxt "block keyword"
+msgid "boxes"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-categories/block.json:keywords
+msgctxt "block keyword"
+msgid "icons"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-search/block.json:keywords
+msgctxt "block keyword"
+msgid "search"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-stats/block.json:keywords
+msgctxt "block keyword"
+msgid "stats"
+msgstr ""
+
+#. Block keyword.
+#: src/courses-stats/block.json:keywords
+msgctxt "block keyword"
+msgid "students"
+msgstr ""
+

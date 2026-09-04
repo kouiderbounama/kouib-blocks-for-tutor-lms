@@ -1,0 +1,200 @@
+/* بحث سريع في الدورات — kouib/courses-search */
+.kouib-search-wrapper {
+	--kouib-search-radius: 10px;
+	position: relative;
+	/* سياق تراصٍّ منخفض افتراضياً: لا يزاحم البطاقات; يتفوق فقط عند الفتح */
+	z-index: 1;
+}
+
+/* عند فتح القائمة: الغلاف بأكمله (حقل+نتائج) يعلو كل العناصر المجاورة
+   في أقرب سياق تراصٍّ مشترك — يحل مشكلة ظهور النتائج تحت البطاقات/الصور */
+.kouib-search-wrapper.kouib-search-open {
+	z-index: 999999;
+}
+
+.kouib-search-field {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+/* الأيقونة ثابتة على اليسار دائماً (حتى في اتجاه RTL) */
+.kouib-search-icon {
+	position: absolute;
+	left: 14px;
+	color: var(--kouib-search-icon, #9aa3b2);
+	pointer-events: none;
+}
+
+/* الحقل: خصائص قد تتنازع عليها أنماط input العامة في القوالب
+   لذلك تُقيَّد بالتسلسل الكامل + !important لضمان التطبيق دائماً */
+.kouib-search-wrapper .kouib-search-input {
+	width: 100% !important;
+	height: 50px !important;
+	max-width: none;
+	padding-left: 46px;
+	padding-right: 44px;
+	font-size: 15px !important;
+	color: var(--kouib-search-text, inherit) !important;
+	background: var(--kouib-search-bg, #fff) !important;
+	border: 1px solid var(--kouib-search-border, #e2e5ea) !important;
+	border-radius: var(--kouib-search-radius) !important;
+	outline: none !important;
+	transition: border-color .18s ease, box-shadow .18s ease;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.kouib-search-wrapper .kouib-search-input::placeholder {
+	color: #9aa3b2;
+}
+
+.kouib-search-wrapper .kouib-search-input:focus {
+	border-color: var(--kouib-primary, #2a7be4) !important;
+	box-shadow: 0 0 0 3px rgba(42, 123, 228, 0.14);
+	outline: none !important;
+}
+
+.kouib-search-wrapper.kouib-search-loading .kouib-search-input {
+	border-color: var(--kouib-primary, #2a7be4) !important;
+}
+
+.kouib-search-spinner {
+	position: absolute;
+	inset-inline-end: 14px;
+	width: 18px;
+	height: 18px;
+	border: 2px solid rgba(42, 123, 228, 0.25);
+	border-top-color: var(--kouib-primary, #2a7be4);
+	border-radius: 50%;
+	animation: kouib-search-spin 0.7s linear infinite;
+	pointer-events: none;
+}
+
+@keyframes kouib-search-spin {
+	to { transform: rotate(360deg); }
+}
+
+.kouib-search-wrapper .kouib-search-results {
+	position: absolute;
+	inset-inline: 0;
+	top: calc(100% + 6px);
+	z-index: 50;
+	max-height: 380px;
+	overflow-y: auto;
+	background: var(--kouib-search-bg, #fff);
+	border: 1px solid var(--kouib-search-border, #e2e5ea);
+	border-radius: var(--kouib-search-radius);
+	box-shadow: 0 12px 32px rgba(15, 29, 51, 0.14);
+	padding: 6px;
+}
+
+/* وضع النتائج في السياق (غير مغطٍ): تدفع المحتوى لأسفل بدل الطبقة العائمة */
+.kouib-search-wrapper .kouib-search-results.kouib-search-inline {
+	position: static;
+	margin-top: 6px;
+	box-shadow: none;
+}
+
+/* اللوحة بعد نقلها إلى body: تموضع ثابت محسوب من JS + نفس كامل التنسيق
+   (القواعد المقيّدة تحت .kouib-search-wrapper لا تنطبق بعد النقل، لذا تُعاد هنا)
+   ملاحظة: لا نضبط inset-inline هنا إطلاقاً، كي تبقى left/right المحددة من JS
+   سارية ولا تتفوق عليها خصائص منطقية بمحرّد !important */
+.kouib-search-results.kouib-search-portal {
+	position: fixed !important;
+	z-index: 2147483646 !important;
+	max-height: 380px;
+	overflow-y: auto;
+	background: var(--kouib-search-bg, #fff);
+	border: 1px solid var(--kouib-search-border, #e2e5ea);
+	border-radius: var(--kouib-search-radius, 10px);
+	box-shadow: 0 12px 32px rgba(15, 29, 51, 0.14);
+	padding: 6px;
+}
+
+.kouib-search-item {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 10px;
+	border-radius: 8px;
+	text-decoration: none;
+	color: inherit;
+	transition: background-color 0.15s ease;
+}
+
+.kouib-search-item:hover,
+.kouib-search-item:focus {
+	background: rgba(42, 123, 228, 0.08);
+	outline: none;
+}
+
+.kouib-search-thumb {
+	flex: 0 0 52px;
+	width: 52px;
+	height: 52px;
+	border-radius: 8px;
+	overflow: hidden;
+	background: #f1f5fb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.kouib-search-thumb img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.kouib-search-body {
+	flex: 1 1 auto;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.kouib-search-title {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 1.4;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.kouib-search-meta-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-items: center;
+}
+
+.kouib-search-meta {
+	font-size: 12px;
+	color: #6b7280;
+}
+
+.kouib-search-rating {
+	color: #e9a100;
+}
+
+.kouib-search-price-free {
+	color: #16803c;
+	font-weight: 600;
+}
+
+.kouib-search-price-paid {
+	font-weight: 600;
+	color: var(--kouib-primary, #2a7be4);
+}
+
+.kouib-search-no-results {
+	margin: 0;
+	padding: 18px 14px;
+	text-align: center;
+	color: #9aa3b2;
+	font-size: 14px;
+}

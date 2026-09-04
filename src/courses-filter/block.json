@@ -1,0 +1,93 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kouib/courses-filter",
+	"version": "1.0.0",
+	"title": "Tutor Courses Filter",
+	"description": "Filter Tutor LMS courses by category with ordering by student count",
+	"category": "kouib-blocks",
+	"icon": "welcome-learn-more",
+	"keywords": [ "tutor", "lms", "courses", "filter" ],
+	"textdomain": "kouib-blocks-for-tutor-lms",
+	"attributes": {
+		"hasShadow": {
+			"type": "boolean",
+			"default": true
+		},
+		"perPage": {
+			"type": "number",
+			"default": 3
+		},
+		"columns": {
+			"type": "number",
+			"default": 3
+		},
+		"orderby": {
+			"type": "string",
+			"default": "date"
+		},
+		"showAll": {
+			"type": "boolean",
+			"default": true
+		},
+		"showLevel": {
+			"type": "boolean",
+			"default": true
+		},
+		"showRating": {
+			"type": "boolean",
+			"default": true
+		},
+		"showLessons": {
+			"type": "boolean",
+			"default": true
+		},
+		"showDuration": {
+			"type": "boolean",
+			"default": true
+		},
+		"showPrice": {
+			"type": "boolean",
+			"default": true
+		},
+		"showStudents": {
+			"type": "boolean",
+			"default": true
+		},
+		"showEnrollBtn": {
+			"type": "boolean",
+			"default": true
+		},
+		"enrollBtnText": {
+			"type": "string",
+			"default": "Enroll in course"
+		},
+		"openInNewTab": {
+			"type": "boolean",
+			"default": false
+		},
+		"primaryColor": {
+			"type": "string",
+			"default": "#2a7be4"
+		}
+	},
+	"supports": {
+		"align": [ "wide", "full" ],
+		"color": {
+			"text": true,
+			"background": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "kouib-style",
+	"style": "kouib-style",
+	"viewScript": "kouib-view"
+}
