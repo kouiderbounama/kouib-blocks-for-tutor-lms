@@ -1,9 +1,0 @@
-﻿node_modules/
-vendor/
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-*.log
-npm-debug.log*
-.env
