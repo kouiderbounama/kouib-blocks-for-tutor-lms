@@ -1,0 +1,97 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "kouib/courses-search",
+	"version": "1.0.0",
+	"title": "Tutor Courses Search",
+	"description": "Instant search across Tutor LMS courses with live AJAX results — no page reload",
+	"category": "kouib-blocks",
+	"icon": "search",
+	"keywords": [ "tutor", "lms", "search", "courses" ],
+	"textdomain": "kouib-blocks-for-tutor-lms",
+	"attributes": {
+		"placeholder": {
+			"type": "string",
+			"default": "Search for a course..."
+		},
+		"fieldWidth": {
+			"type": "number",
+			"default": 460
+		},
+		"formAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"overlayResults": {
+			"type": "boolean",
+			"default": true
+		},
+		"fieldBg": {
+			"type": "string",
+			"default": ""
+		},
+		"fieldBorder": {
+			"type": "string",
+			"default": ""
+		},
+		"fieldText": {
+			"type": "string",
+			"default": ""
+		},
+		"iconColor": {
+			"type": "string",
+			"default": ""
+		},
+		"perPage": {
+			"type": "number",
+			"default": 6
+		},
+		"fullPhrase": {
+			"type": "boolean",
+			"default": false
+		},
+		"showThumb": {
+			"type": "boolean",
+			"default": true
+		},
+		"showPrice": {
+			"type": "boolean",
+			"default": true
+		},
+		"showRating": {
+			"type": "boolean",
+			"default": true
+		},
+		"showStudents": {
+			"type": "boolean",
+			"default": true
+		},
+		"openInNewTab": {
+			"type": "boolean",
+			"default": false
+		},
+		"primaryColor": {
+			"type": "string",
+			"default": "#2a7be4"
+		}
+	},
+	"supports": {
+		"align": [ "wide", "full" ],
+		"color": {
+			"text": true,
+			"background": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+		},
+		"spacing": {
+			"padding": true,
+			"margin": true
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "kouib-search-style",
+	"style": "kouib-search-style",
+	"viewScript": "kouib-search-view"
+}
