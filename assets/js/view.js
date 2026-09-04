@@ -19,9 +19,9 @@
 
 			function buildUrl(term) {
 				var d = wrapper.dataset;
-				var url = d.kouibsRest + "?term=" + encodeURIComponent(term)
-					+ "&orderby=" + encodeURIComponent(d.kouibsOrderby || "date")
-					+ "&perPage=" + encodeURIComponent(d.kouibsPerpage || 3);
+				var url = d.kouibRest + "?term=" + encodeURIComponent(term)
+					+ "&orderby=" + encodeURIComponent(d.kouibOrderby || "date")
+					+ "&perPage=" + encodeURIComponent(d.kouibPerpage || 3);
 				["showLevel","showRating","showLessons","showDuration","showPrice","showStudents","showEnrollBtn","enrollBtnText","openInNewTab"].forEach(function(k) {
 					var attr = "kouib" + k.charAt(0).toUpperCase() + k.slice(1).toLowerCase();
 					var v = d[attr];
@@ -78,7 +78,7 @@
 					skel = document.createElement("div");
 					skel.className = "kouib-courses-grid kouib-" + term + " active kouib-is-skeleton";
 					skel.setAttribute("data-kouib-page", "1");
-					skel.innerHTML = skeletonHtml(parseInt(wrapper.dataset.kouibsPerpage, 10) || 3);
+					skel.innerHTML = skeletonHtml(parseInt(wrapper.dataset.kouibPerpage, 10) || 3);
 					lists.insertBefore(skel, lists.firstChild);
 
 					wrapper.querySelectorAll(".kouib-courses-grid").forEach(function(g) {

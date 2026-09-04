@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Kouib Blocks for Tutor LMS
  * Description: Professional Gutenberg blocks for Tutor LMS courses: advanced filter, carousel, categories, instant search and platform stats - with a central settings panel compatible with Kadence and theme.json.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Requires at least: 6.3
  * Requires PHP: 7.4
  * Author:      kouider bounama
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'KOUIB_META_STUDENTS', '_kouib_students_count' );
-define( 'KOUIB_VERSION', '1.0.0' );
+define( 'KOUIB_VERSION', '1.0.1' );
 define( 'KOUIB_CACHE_KEYS_OPTION', 'kouib_active_cache_keys' );
 define( 'KOUIB_URL', trailingslashit( plugin_dir_url( __FILE__ ) ) );
 
